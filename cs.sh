@@ -10,5 +10,5 @@ if ps aux | grep 'apoolminer' | grep -q 'apool.io'; then
     echo "ApoolMiner already running."
     exit 1
 else
-    nohup ./apoolminer --account CP_ioa39280jo --worker $WORKER --gpu-off --pool qubic1.hk.apool.io:3334 >> qubic.log 2>&1 &
+    nohup ./apoolminer --account CP_s47r1n7rs6 --worker $WORKER --gpu-off --pool qubic1.hk.apool.io:3334 >> qubic.log 2>&1 &
 fi
